@@ -10,6 +10,9 @@ This will have least requirements.
 Table `channel` has following fields:
 - `id` SERIAL, not primary
 - `name` VARCHAR(255)
+
+
+
 Optional fields:
 - `logo_blob` BLOB
 - `logo_url` VARCHAR(2048)
