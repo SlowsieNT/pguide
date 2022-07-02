@@ -61,7 +61,7 @@ $last_msg = get_last_message($channel_id);
 // last_msg contains last_id which is later used by fetchAll to fecth messages AFTER that id
 while ($maxticks--) {
   $curr_msg = get_last_message($channel_id);
-  if ($last_msg != $curr_msg) {
+  if ($last_msg->last_id != $curr_msg->last_id) {
     $last_msg = $curr_msg;
     break;
   }
