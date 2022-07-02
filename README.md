@@ -58,9 +58,9 @@ function get_last_message($channel_id){
 }
 function sendmessage(){
   // or use INSERT, if not inserted!
-  $q = "UPDATE last_message set ...`;
+  $q = "UPDATE last_message set ...";
   // you know what to do here:
-  $q2 = "INSERT into messages set ...`;
+  $q2 = "INSERT into messages set ...";
   // ...
 }
 
