@@ -56,6 +56,13 @@ function get_last_message($channel_id){
   $q = "SELECT * from last_message where channel_id='$channel_id'";
   //...
 }
+function sendmessage(){
+  // or use INSERT, if not inserted!
+  $q = "UPDATE last_message set ...`;
+  // you know what to do here:
+  $q2 = "INSERT into messages set ...`;
+  // ...
+}
 
 $channel_id = 1;
 $maxticks = 32;
