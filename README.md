@@ -7,6 +7,8 @@ This will have least requirements.
 
 ### Database structure
 
+Note: `SERIAL` is: BIGINT UNSIGNED UNIQUE AUTO_INCREMENT<br>
+
 Table `channel` has following fields:
 - `id` SERIAL, not primary
 - `name` VARCHAR(255)
