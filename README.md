@@ -31,6 +31,8 @@ Has following fields:
 - `last_id` BIGINT, attribute: `UNSIGNED`
 - `channel_id` BIGINT UNIQUE, attribute: `UNSIGNED`
 - `uid` BIGINT, attribute: `UNSIGNED`
+
+
 The `channel_id` will crash `INSERT` if duplicate id is found.
 Thus `UPDATE` must be called instead.
 
